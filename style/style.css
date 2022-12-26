@@ -1,0 +1,60 @@
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tittle{
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 60px;
+    padding-top: 30px;
+}
+
+.text{
+    font-weight: bold;
+    font-size: 30px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 550px){
+    .container{
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .container{
+        max-width: 4300px;
+    }
+
+    .text{
+        max-width: 400px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .container{
+        max-width: 320px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .container{
+        max-width: 320px;
+    }
+
+    .text{
+        max-width: 300px;
+    }
+}
